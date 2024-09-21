@@ -1,0 +1,17 @@
+<form>
+  <label for="bore">ขนาดกระบอกสูบ (mm):</label>
+  <input type="number" id="bore">
+
+  <label for="stroke">ระยะชัก (mm):</label>
+  <input type="number" id="stroke">
+
+  <label for="numCylinders">จำนวนกระบอกสูบ:</label>
+  <input type="number" id="numCylinders">
+
+  <label for="chamberVolume">ปริมาตรห้องเผาไหม้ (cc):</label>
+  <input type="number" id="chamberVolume">
+
+  <button onclick="calculate()">คำนวณ</button>
+</form>
+
+<div id="result"></div>
